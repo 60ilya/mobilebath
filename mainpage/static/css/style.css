@@ -1,0 +1,582 @@
+a{
+    text-decoration: none;
+    color: inherit;
+    scroll-behavior: smooth;
+
+
+}
+ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+body{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 14px;
+    line-height: 18px;
+    letter-spacing: 2px;
+    color: #F4EEE8;
+}
+.header{
+    background: #140F09; 
+    background: url('../images/head-2.jpg') no-repeat center top / cover; 
+    background-color: #140F09;
+    padding: 70px 0 0;
+}
+.container{
+    max-width: 1200;
+    margin: 0 auto;
+    padding: 0 200px;
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.menu{
+    display: flex;
+}
+.menu-item {
+    padding-right: 30px;
+
+}
+
+.offer{
+    
+    justify-content: space-between;
+    align-items: center;
+    padding: 167px 0 0 0  ;
+}
+.offer h1{
+    
+    font-weight: 900;
+    font-size: 72px;
+    line-height: 100%;
+    margin: 0 0 20px;
+
+}
+
+
+
+.offer p{
+    margin: 0 0 53px;
+}
+.offer-btn{
+    display: inline-block;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+    letter-spacing: 0.1em;
+
+    background-color: #ED6505;
+    padding: 20px 98.5px 20px;
+    margin: 0 0 279px;
+}
+.about-us{
+    padding: 150px 0 150px;
+    background-color: #F4EEE8;
+}
+.about-us-title{
+    margin: 0 0 40px;
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 29px;
+    letter-spacing: 2px;
+    color: #ED6505;
+    display: inline-block;
+    list-style: none;
+
+}
+.about-us-info{
+    display: flex;
+    justify-content: space-between;  
+    align-items: center; 
+
+
+}
+.about-us-text{
+    
+    font-size: 18px;
+    line-height: 29px;
+    letter-spacing: 2px;
+
+    color: #1A1611;
+}
+.about-us-text p{
+    margin: 0;
+}
+
+.images-about-us{
+    margin-left: 60px;
+
+}
+.advantages{
+    background-color: #1B1611;
+    padding: 150px 0 150px;
+}
+.advantages-title{
+    margin: 0 0 40px;
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 29px;
+    letter-spacing: 2px;
+
+    color: #ED6505;
+}
+.advantages-list1{
+    display: flex;
+    
+    
+    padding: 0px;
+    gap: 20px;
+    margin: 0 0 20px;
+}
+.advantages-item3{
+    /* position: absolute; */
+    right: 0;
+}
+.advantages-item p{
+    margin: 0 0 40;
+}
+.advantages-item h4{
+    margin: 0;
+
+}
+.text{
+    padding:0 30px 0 0px;
+}
+.advantages-list2{
+    display: flex;
+      
+    padding: 0px;
+    gap: 20px;
+}
+.advantages-item-bloc{
+    max-width: 360px;
+    display: inline-block;
+  
+    
+}
+.advantages-item-bloc h4{
+    margin: 0 0 10px;
+    font-weight: 700;
+
+}
+
+.advantages-item-bloc1 h4, .advantages-item-bloc2 h4,.advantages-item-bloc3 h4{
+    margin: 0;
+}  
+.advantages-item-bloc1 p, .advantages-item-bloc2 p,.advantages-item-bloc3 p{
+    margin: 0 0 40px; 
+}  
+.advantages-item-bloc1{
+    max-width: 360px;
+    display: inline-block;
+    padding: 10px;
+    
+
+}
+.advantages-item-bloc2{
+    max-width: 360px;
+    display: inline-block;
+    padding: 10px;
+    
+    
+}
+.advantages-item-bloc3{
+    max-width: 360px;
+    display: inline-block;
+    padding: 10px;
+    
+}
+.rates{
+    background-color: #F4EEE8;
+    padding: 150px 0 150px;
+    color: #140F09;
+}
+.about-rates{
+    display: flex;
+    justify-content: center;
+    margin: auto;
+
+
+}
+.rates-text{
+    
+    max-width: 510px;
+    display: inline-block;
+     padding-right: 60px; 
+    
+}
+.rates-text2{
+    max-width: 560px;
+    display: inline-block;
+    
+    
+    
+}
+.rates-text p{
+    text-align: right;
+    margin: 0 0 40px; 
+
+}
+.rates-text2 h5{
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 29px;
+    color: #ED6505;
+    margin: 0 0 40px;
+}
+
+.rates-bloc{
+    display: flex;
+    margin: auto;
+    justify-content: center;
+
+}
+.rates-bloc-base{
+    max-width: 360px;
+    display: inline-block;
+    padding-right: 60px;
+    
+    
+}
+.images-baza, .images-extended{
+    margin: 0 0 20px;
+}
+.rates-bloc-base h6, .rates-bloc-extended h6{
+    line-height: 30px;
+    margin: 0 0 10px;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
+
+}
+.rates-bloc-base p, .rates-bloc-extended p{
+    margin: 0 0 20px;
+}
+
+.rates-bloc-extended{
+    max-width: 360px;
+    display: inline-block;    
+    
+}
+.rates-btn{
+    display: inline-block;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+    letter-spacing: 0.1em;
+    color: #F4EEE8;
+
+    background-color: #ED6505;
+    padding: 20px 118.5px 20px;
+    margin: 0 ;
+}
+.location{
+    background-color: #140F09;
+    padding: 150px 0 150px;
+    
+}
+.location-title h7{
+    margin: 0 0 40px;
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 29px;
+    letter-spacing: 2px;
+
+    color: #ED6505;
+
+}
+.location-title{
+    margin: 0 0 40px;
+}
+.footer{
+    background-color: #140F09;
+    padding: 150px 0 150px;
+
+}
+.nav-footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 0 30px;
+
+}
+.connection{
+    display: flex; 
+    align-items: center;
+    justify-content: space-between; 
+    
+   
+}
+.phone{
+    display: flex;
+    align-items: center;
+    margin-right: 30px;
+}
+.phone i{
+    margin: 0 10px 0 0  ;
+    
+    
+    color: #ED6505;
+    
+}
+.social{
+    display: flex;
+    
+}
+.social__icon{
+    display: flex; 
+    align-items: center;
+    justify-content:center;
+    background-color: #F4EEE8;
+    color: #140F09;
+    width: 42px;
+    height: 42px;
+    margin-right: 10px;
+    border: none;
+ 
+    
+    /* border-radius: 50%; */
+    transition: all 03s ease;
+    position: relative;
+    overflow:hidden;
+
+
+}
+.social__icon i{
+    font-size: 20px;
+    color: #140F09;
+    transition: all 0.3s ease;
+    margin: 0;
+    z-index: 1;
+    border: none;
+}
+
+.social__icon:after{
+    content: "";
+    width: 42px;
+    height: 42px;
+    position:absolute;
+    transform: translate(0, 42px);
+    /* border-radius: 50%; */
+    transition: all 0.3s ease;
+}
+  
+.social__icon.instagram:after{
+    background-color:#ED6505
+}
+.social__icon.telegram:after{
+    background-color: #ED6505
+}
+
+.social__icon.vk:after{
+    background-color: #ED6505
+}
+
+.social__icon:hover {
+    transform: translateY(-4px);
+    box-shadow: 0px 0px 15px #00000080;
+}
+  
+.social__icon:hover i{
+     color:#F4EEE8
+}
+  
+.social__icon:hover:after{
+    transform: translate(0);
+}
+.phone-logo{
+    width: 42px;
+    height: 42px;
+    margin: 0 10 0 0;
+}
+.arrow{
+    display: flex; 
+    align-items: center;
+    justify-content:center;
+    background-color: #ED6505;
+    width: 42px;
+    height: 42px;
+}
+.arrow-link i{
+    color: #F4EEE8;
+    font-size: 20px;
+    border: none;
+}
+
+.modal {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100vh;
+    z-index: 99998;
+    background-color: rgba(0, 0, 0, .3);
+
+    color:#140F09;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    overflow-y: auto;
+    visibility: hidden;
+    opacity: 0;
+    transition: opacity .4s, visibility .4s;
+}
+.modal-box {
+    position: relative;
+    max-width: 552px;
+    padding: 45px;
+    z-index: 1;
+    margin: 30px 15px;
+    background-color:#F4EEE8;
+    box-shadow: 0px 0px 17px -7px rgba(34, 60, 80, 0.2);
+    transform: scale(0);
+    transition: transform .8s;
+}
+.modal.open .modal-box {
+    transform: scale(1);
+
+}
+.modal.open {
+    visibility: visible;
+    opacity: 1;
+}
+
+.modal-close-btn{
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    border: none;
+    background-color: transparent;
+    padding: 5px;
+    cursor: pointer;
+    color: #ED6505;
+}
+.offer-btn{
+    background-color:#ED6505;
+    border: none;
+    color:#F4EEE8 ;
+    padding: 20px 118.5px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 0 0 279px;
+}
+.rates-btn{
+    background-color:#ED6505;
+    border: none;
+    color: #F4EEE8;
+    padding: 20px 118.5px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 0 ;
+}
+.form{
+    color: #140F09;
+}
+.form-input, .form-btn{
+    font-family: sans-serif;
+    letter-spacing: 1px;
+    font-size: 16px;
+}
+.form_btn{
+
+    background-color:#ED6505;
+    border: none;
+    color: #F4EEE8;
+    padding: 20px 118.5px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 40 ;
+    cursor: pointer;
+}
+.form-title{
+    text-align: center;
+    display: block;
+    margin: 0 0 40px;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+    letter-spacing: 1px;
+    color:#140F09   ;
+}
+.form-group{
+    margin-bottom: 32px;
+    position: relative;
+}
+.form-lable{
+    top: 0;
+    z-index: 1;
+    color: #140F09;
+    transition: 0.3s;
+}
+.form-input{
+    width: 100%;
+    padding: 0 0 10px 0;
+    border: none;
+    border-bottom: 1px solid #140F09;
+    background-color: transparent;
+    outline: none;
+    transition: 0.3s;
+}
+.form-input:focus{
+    border-bottom: 1px solid #ED6505;
+}
+.form-input:focus ~ .form-lable{
+    top: -18px;
+    font-size: 12px;
+    color: #9e9e9e;
+}
+
+
+
+.menu-link:hover{
+    text-decoration: none; /* Убираем подчёркивание */
+    color:#ED6505; /* Цвет ссылки */ 
+
+}
+.select{
+    width: 100%;
+    -moz-appearance: none;
+	-webkit-appearance: none;
+    appearance: none;
+    color: #140F09;
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid #140F09;
+    padding: 10px 35px 10px 15px;
+    outline: none;
+
+	cursor: pointer;
+}
+.select::-ms-expand {
+	display: none;
+}
+.select:focus{
+    border-bottom: 1px solid #ED6505;
+}
+.select:focus ~ .form-lable{
+    top: -18px;
+    font-size: 12px;
+    color: #9e9e9e;
+}
+.html{
+    scroll-behavior: smooth;
+}
+.bron{
+    color: #140F09;
+}

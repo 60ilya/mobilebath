@@ -1,0 +1,367 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com"> 
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="{% static 'css/normalize.css' %}">
+    <script src="https://kit.fontawesome.com/c2c8bdab90.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="{% static 'css/style.css' %}">
+<link rel="icon" href="{% static 'images/icon.ico' %}" type="image/x-icon">
+    <title>Автобаня "Парилка"</title>
+</head>
+<body>
+
+    <header class="header">
+        <div class="container">
+            <nav class="nav">
+                <a class="logo">
+                    <img class="logo-img" src="{% static 'images/logo2.svg' %}" alt="Логотип">
+                </a>
+                <ul class="menu">
+                    <li class="menu-item">
+                        <a href="#sec1" class="menu-link"href="#" >Главная</a>
+                   
+                    </li> 
+                    
+                    <li class="menu-item"> 
+
+                        <a href="#sec2" class="menu-link"href="#" >О нас</a>
+
+                    </li>
+                    <li class="menu-item">
+                        <a class="menu-link"href="#sec3" >Тарифы</a>
+                    </li>
+                    <li class="menu-item">
+                        <a class="menu-link"href="#sec4" >Локации</a>
+                    </li>
+                    <li class="menu-item">
+                        <a class="menu-link"href="#sec5" >Контакты</a>
+                    </li>
+                   
+                </ul>
+ 
+
+            </nav>
+            <div class="offer">
+                <h1>
+                    Ваш личный курорт<br>
+                    на колесах 
+                    
+                </h1>
+               
+                <p>
+                    Посуточная аренда передвижной бани <br>
+                    в Приморском крае
+    
+                </p>
+                
+
+                <button class="offer-btn" id="open-modal-btn">Арендовать</button>
+
+            </div>
+        </div>
+    </header>
+    <main class = "main">
+        <section id="sec2" class = "about-us" >
+            <div class = "container">
+                <!-- <h2 class="about-us-title">
+                    О нас
+                </h2>  -->
+                <div class="about-us-info">
+                    <!-- <div class="about-us-title">
+                        <h2>
+                            О нас
+                        </h2> 
+                    </div>  -->
+                    
+                     <div class="about-us-text">
+                        <h2 class="about-us-title">
+                            О нас
+                        </h2> 
+                        <p>
+                            Наша баня на колёсах «Парилка» - инновационное<br>
+                                решение для любителей банных процедур, которые<br>
+                                не хотят ограничивать себя привычными местами<br>
+                                отдыха. Это не только удобный и комфортный способ<br>
+                                попариться, но и возможность насладиться<br>
+                                удивительными видами и окунуться сразу после<br>
+                                парной в чистую морскую воду 
+                        </p>   
+
+                    </div>
+                    <img class="images-about-us" src="{% static 'images/aboutusfoto.jpg' %}" alt="bath">
+                </div>
+              
+            </div>
+        </section>
+        <section class="advantages" >
+            <div class = "container">
+                <h3 class="advantages-title">
+                    Чем мы отличаемся от других?
+                </h3>
+                <div class="advantages-list1">
+                    <div class="advantages-item-bloc">
+                        <h4>Доступность</h4>
+                        <p>
+                            Мы можем разместить «Парилку» на берегу моря, возле кромки воды с учетом безопасности подъезда и входа в воду                        </p>
+                    </div>
+                    <div class="advantages-item-bloc">
+                        <h4>Экологичность</h4>
+                        <p>
+                            Парная сделана из липы. Все материалы максимально экологичны. Топится на дровах.                        </p>
+                    </div>
+                    <div class="advantages-item-bloc">
+                        <h4>Эстетичность</h4>
+                        <p>
+                            Конструкция выглядит весьма экстравагантно                        </p>
+                    </div>
+                </div>
+
+                <div class="advantages-list2">
+                    <div class="advantages-item-bloc">
+                        <h4>Экономичность</h4>
+                        <p>
+                            Попариться на берегу моря вы сможете, потратив на это от 1000руб
+                        </p>
+                    </div>
+                    <div class="advantages-item-bloc">
+                        <h4>Функциональность</h4>
+                        <p>
+                            При желании «Парилка» может приехать в любую доступную локацию по договоренности заранее
+                        </p>
+                    </div>
+                    <div class="advantages-item-bloc">
+                        <h4>Польза для здоровья</h4>
+                        <p>
+                            Баня давно используется в лечебно-профилактических целях
+                        </p>
+                    </div>
+                </div>
+
+
+            </div>
+        </section>
+        <section class="rates" id="sec3">
+            <div class="container">
+                <div class="about-rates">
+                    <div class="rates-text">
+                        <p>
+                            В нашей бане представлены несколько тарифов на посещение, чтобы каждый мог выбрать оптимальный вариант для себя. Если вы хотите впервые попробовать мобильную баню, то для вас подойдет тариф , который стоит всего 1000 рублей. В рамках этого тарифа вы сможете насладиться всеми преимуществами бани
+
+                        </p>
+                    </div>
+                    <div class="rates-text2">
+                        <h5 >
+                            Тарифы
+                        </h5>
+                        <p>
+                            У нас в бане есть тарифы на посещение, которые подойдут каждому гостю, независимо от его финансовых возможностей.
+                        </p>
+                    </div>
+                </div>
+                <div class="rates-bloc">
+                    <div class="rates-bloc-base">
+                        <img class="images-baza" src="{% static 'images/baza.jpg' %}" alt="base">
+                        <h6>
+                            Базовый
+
+                        </h6>
+                        <p>
+                            Базовый тариф бани обычно включает в себя аренду помещения на определенное количество часов,  наличие дров для нагрева парильного помещения, настольные игры и посуду для чая
+
+                        </p>
+                        <button class="rates-btn" id="open-modal-btn1">Арендовать</button>
+
+
+                    </div>
+
+                    <div class="rates-bloc-extended">
+                        <img class="images-extended" src="{% static 'images/extended.jpg' %}" alt="extended">
+                        <h6>
+                            Расширенный
+
+                        </h6>
+                        <p>
+                            Расширенный тариф  включает в себя  транспортировку бани в любое нужное для  место, банные принадлежности, угощения и другие дополнительные опции по желанию клиента
+
+                        </p>
+
+                        <button class="rates-btn" id="open-modal-btn2">Арендовать</button>
+
+
+
+                    </div>
+
+                   
+
+                </div>
+
+            </div>
+        </section>
+        <section class="location" id="sec4">
+            <div class = "container">
+                <div class="location-bloc">
+                    <div class="location-title">
+                        <h7>
+                            Локации
+                        </h7> 
+                    </div>
+                    <div class="location-map">
+                        <script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3A71983fa9821d6a33fb0517720b86863a6421b7c6c8dfd93e63478ab13ffa4520&amp;width=1025&amp;height=512&amp;lang=ru_RU&amp;scroll=true"></script>
+                    </div>
+                </div>
+                
+            </div>
+
+        </section>
+        <section class = "footer" id="sec5">
+            <div class = "container">
+                <nav class="nav-footer">
+                    <a class="logo">
+                        <img class="logo-img" src="{% static 'images/lofo-futer.svg' %}" alt="Логотип">
+                    </a>
+                    <ul class="menu">
+                        <li class="menu-item">
+                            <a class="menu-link"href="#" >Главная</a>
+                        </li> 
+                        
+                        <li class="menu-item"> 
+    
+                            <a class="menu-link"href="#" >О нас</a>
+    
+                        </li>
+                        <li class="menu-item">
+                            <a class="menu-link"href="#" >Тарифы</a>
+                        </li>
+                        <li class="menu-item">
+                            <a class="menu-link"href="#" >Локации</a>
+                        </li>
+                        <li class="menu-item">
+                            <a class="menu-link"href="#" >Контакты</a>
+                        </li>
+                       
+                    </ul>
+                </nav>
+                <div class="connection">
+                    <div class="social">
+                        <a class="social__icon instagram" href="#">
+                          <i class="fab fa-instagram"></i>
+                        </a>
+                        <a class="social__icon telegram" href="#">
+                            <i class="fa-brands fa-telegram"></i>
+                        </a>
+                        <a class="social__icon vk" href="#">
+                            <i class="fa-brands fa-vk"></i>
+                        </a>
+                    
+                    </div>
+                    
+                    <div class="phone">
+                        <i class="fa-solid fa-phone"></i>
+                        <a href="tel:89085871418" class= "phone-numbers" >+79085871418</a>
+                    </div>
+
+
+                </div> 
+              
+            </div>
+        </section>
+       
+
+    </main>
+
+    <div id="my-modal" class="modal">
+        <div class="modal-box">
+            <button class="modal-close-btn" id="close-modal-btn">
+                <svg width="23" height="25" viewBox="0 0 23 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M2.09082 0.03125L22.9999 22.0294L20.909 24.2292L-8.73579e-05 2.23106L2.09082 0.03125Z" fill="#333333"/>
+                <path d="M0 22.0295L20.9091 0.0314368L23 2.23125L2.09091 24.2294L0 22.0295Z" fill="#333333"/>
+                </svg>
+                
+            </button>
+            <div class="popuu-content">
+                <form method="post">
+                    {% csrf_token %}
+                    
+                    
+                    
+                    
+                    
+                    
+                    <h11 class="form-title">
+                        Бронирование
+                    </h11>
+                    <div class="form-group">
+                        {{ form.phone}}
+                        <label for="#" class="form-lable">Телефон</label>
+                    </div>
+                    <div class="form-group">
+                        {{ form.fullname}}
+                        <label for="#" class="form-lable">ФИО</label>
+                    </div>
+                    <div class="form-group">
+                        {{ form.time }}
+                        <label for="#" class="form-lable">Время</label>
+                    </div>
+                    <div class="form-group">
+                        {{ form.date }}
+                        <label for="#" class="form-lable">Дата</label>
+                        
+                    </div>
+                    <div class="form-group">            
+                        <!-- <input type="#" class="form-input">
+                        <label for="#" class="form-lable">Локация</label> -->
+                        {{ form.location }}
+                        
+                        <label for="#" class="form-lable">Локация</label> 
+                    </div>
+                    <div class="form-group">
+                        {{ form.rate }}
+                        <label for="#" class="form-lable">Тариф</label>
+                    </div>
+                    <button type="submit" class="form_btn" id="open-modal2-btn">Подтвердить</button>
+                    <span>{{ error }}</span>
+                </form>
+                <div class="form-group">
+                   
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <div id="my-modal2" class="modal">
+        <div class="modal-box">
+            <button class="modal-close-btn" id="close-modal-btn2">
+                <svg width="23" height="25" viewBox="0 0 23 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M2.09082 0.03125L22.9999 22.0294L20.909 24.2292L-8.73579e-05 2.23106L2.09082 0.03125Z" fill="#333333"/>
+                <path d="M0 22.0295L20.9091 0.0314368L23 2.23125L2.09091 24.2294L0 22.0295Z" fill="#333333"/>
+                </svg>
+                
+            </button>
+            <div class="popuu-content">
+                 <h11 class="form-title">
+                        Заявка одобрена!
+
+                </h11>
+                <p class="bron">
+                    Наш менеджер свяжется c Вами.
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <script src="{% static 'js/index.js' %}" ></script>
+    <script>document.getElementById('davaToday').valueAsDate = new Date();</script>
+
+   
+</body>
+</html>
