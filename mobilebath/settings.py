@@ -8,7 +8,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 # See https://docs.djangoproject.com/en/4.2/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = 'django-insecure-%r4uze20d4v!j_md8iqx+5bppy*n8oa-b*q_hc43szviq3fav+'
+SECRET_KEY = ''
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
@@ -72,8 +72,8 @@ DATABASES = {
         'NAME': 'mobilebath',
         'HOST': '127.0.0.1',
         'PORT': '3306',
-        'USER': 'root',
-        'PASSWORD': 'Sokola042174!',
+        'USER': '',
+        'PASSWORD': '',
     }
 }
 
